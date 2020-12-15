@@ -1,3 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+/* contact CSS */
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image:url('../images/contact.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* css for the container in the contact section */
+.contain{
+    height: 65vh;
+    width: 90%;
+    max-width: 500px;
+    margin : 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px gray;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+/* form group css */
+.form-group{
+    width:100%;
+    margin-top:20px;
+    font-size: 22px;
+}
+/* message box height */
+.form-group textarea{
+    height:20vh;
+}
+/* cssing in the text area of the form section */
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,255,0.3);
+    font-size: 18px;
+    /* space between the input and the label */
+    margin-top: 5px;
+}
+/* message box moves up and down */
+textarea{
+    resize:vertical;
+}
+
+/* label text color for the contact section  */
+label{
+    color:white;
+}
+
+.contact h2{
+     color:white;
+ }
+/* css the sumbit button */
+.btn-primary{
+    width:100%;
+    background-color:lavender;
+    color: rgb(27,166,247);
+    border:none;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    background-color:#67B7D1;
+}
+
+ 
+
+/* navbar CSS */
 .navbar{
     overflow: hidden;
     background-color: #b3e5fc !important;
@@ -27,21 +108,39 @@ figure{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url('images/fantasy.jpg');
+    background-image: url('../images/fantasy.jpg');
     background-size: cover;
     background-position: center;
 
 }
+
 h2{
+    text-align: center;
+}
+h3{
+    font-size: 12px;
     text-align: center;
 }
 
 
+
+/* icon CSS */
+.fa-twitter{
+
+}
+.fa-facebook{
+
+}
+.fa-github{
+
+
+
+}
 @media screen and (min-width: 768 px){
     figure{
         width: 100%;
         margin-bottom: 25px;
-        background-image: url('images/fantasy.jpg');
+        background-image: url('../images/fantasy.jpeg');
         background-size: cover;
         background-position: center;
 
