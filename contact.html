@@ -16,31 +16,28 @@
   <header>
     <!--Navbar-->
     <nav class="navbar navbar-light light-blue lighten-4">
-  
+
       <!-- Navbar brand -->
       <a class="navbar-brand" href="#">Navbar</a>
-  
+
       <!-- Collapse button -->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
         aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
-  
+
       <!-- Collapsible content -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-  
+
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About/Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
         </ul>
         <!-- Links -->
@@ -48,34 +45,46 @@
       <!-- Collapsible content -->
     </nav>
   </header>
+  <!-- Contact -->
+  <!-- Form page with email, password, message box and submit button -->
+  <section class="contact" id=contact>
 
-  <!-- Background Picture -->
-  <figure></figure>
-  <!-- About -->
-  <section class="about" id=about>
-    <h2>About</h2>
-    <p>
-      
-    </p>
+    <div class="container contain">
+      <h2>Contact</h2>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" col="40" row="100"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </section>
-   <!-- Contact -->
-   <section class="contact" id=contact>
-    <h2>Contact</h2>
-  </section>
-  <!-- Portfolio -->
-  <section class="portfolio" id=portfolio>
-    <h2>Portfolio</h2>
-  </section>
- 
+  <!-- Closing Contact -->
+
+  <!-- JS libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- footer -->
+  <!-- twitter, facebook and github icons -->
   <footer>
     <div class="social d-flex justify-content-center">
       <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
       <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-      <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+      <a class="mx-2" href="https://github.com/swoo328/"><i class="fab fa-github"></i></a>
     </div>
+    <!-- copyright -->
+    <h3>© Steven Woo 2020</h3>
   </footer>
 </body>
 

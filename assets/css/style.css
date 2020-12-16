@@ -6,19 +6,28 @@
 body {
     font-family: 'Merriweather', serif;
 }
+/* portfolio CSS */
+.portfolio-background{
+    background-image:url('../images/glowingsky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /* contact CSS */
 .contact{
     height: 100vh;
     width: 100%;
     background-image:url('../images/contact.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 /* css for the container in the contact section */
 .contain{
-    height: 65vh;
+    height: 70vh;
     width: 90%;
     max-width: 500px;
     margin : 0 auto;
@@ -26,7 +35,7 @@ body {
     box-shadow: 0px 0px 20px gray;
     background-color: lightblue;
     border-radius: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
 }
 /* form group css */
 .form-group{
@@ -71,72 +80,78 @@ label{
     border-radius: 5px;
     text-align: center;
 }
-
+/* hover color for the button */
 .btn-primary:hover{
     background-color:#67B7D1;
 }
 
- 
+ /*Portfolio CSS */
+ section h2{
+     font-size:50px;
+     color:blue;
+ }
 
 /* navbar CSS */
-.navbar{
-    overflow: hidden;
-    background-color: #b3e5fc !important;
-    position: fixed;
-    top: 0;
-    text-align: right;
-    width: 100%;
-    font-size: 20px;
+nav
+{
+    background-color:lightblue;
 }
-
-.navbar-brand{
-    color:bold;
+nav ul li a{
+    color:white;
 }
-.nav-item{
-    color:black;
-}
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    /* .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    } */
+  
 figure{
     height: 800px;
     width: 100%;
+    display:block;
     margin-bottom: 25px;
     background-image: url('../images/fantasy.jpg');
     background-size: cover;
     background-position: center;
 
 }
+/* CSS for the about pages */
+.about{
+    background-image:url('../images/night.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 h2{
     text-align: center;
+    color:white;
 }
 h3{
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
 }
 
+/* Portfolio images CSS */
+.imgCenter{
+ margin-top:20px;
+ width: 450px;
+ height: 350px;
+ padding:10px;
+}
+
+p{
+ color:blue;
+}
 
 
 /* icon CSS */
 .fa-twitter{
-
+color:lightblue;
+font-size:20px;
+margin-top: 5px;
 }
-.fa-facebook{
 
-}
 .fa-github{
-
-
-
+ color:lightgreen;
+ font-size:20px;
+ margin-top: 5px;
 }
-@media screen and (min-width: 768 px){
+/* @media screen and (min-width: 768 px){
     figure{
         width: 100%;
         margin-bottom: 25px;
@@ -145,4 +160,5 @@ h3{
         background-position: center;
 
     }
-}
+    
+} */
