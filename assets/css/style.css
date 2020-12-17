@@ -123,7 +123,7 @@ figure{
 }
 /* CSS for the about pages */
 .about{
-    background-image:url('../images/night.jpg');
+    background-image:url('../images/masonry.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -150,7 +150,8 @@ p{
 }
 
 footer h3{
-    color:lightblue;
+    color:black;
+    font-weight:bold;
     font-size:18px;
 }
 /* icon CSS */
