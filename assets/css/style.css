@@ -8,7 +8,7 @@ body {
 }
 /* portfolio CSS */
 .portfolio-background{
-    background-image:url('../images/glowingsky.jpg');
+    background-image:url('../images/nightlight.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -92,13 +92,24 @@ label{
  }
 
 /* navbar CSS */
-nav
+
+.navbar
 {
-    background-color:lightblue;
+    background-color:lightblue !important;
 }
-nav ul li a{
-    color:white;
+.navbar .navbar-brand{
+    color: White;
+    font-weight:bold;
+    font-size: 20px;
 }
+.navbar .nav-item a{
+    color:white !important;
+}
+/* move the content to the right */
+.navbar-nav{
+    margin-left:auto;
+}
+
   
 figure{
     height: 800px;
@@ -138,7 +149,10 @@ p{
  color:blue;
 }
 
-
+footer h3{
+    color:lightblue;
+    font-size:18px;
+}
 /* icon CSS */
 .fa-twitter{
 color:lightblue;
