@@ -88,7 +88,7 @@ label{
  /*Portfolio CSS */
  section h2{
      font-size:50px;
-     color:black;
+     color:antiquewhite;
      margin-bottom:40px;
  }
 
@@ -144,11 +144,8 @@ h2{
  height: 350px;
  padding:10px;
 }
-/* index.html image CSS */
-.steven{
-   height:1000px
-   width:100%;
-}
+/* parapgraph css */
+/* color, groove border and text is center */
 p{
  color:mintcream;
  text-align: center;
@@ -166,7 +163,7 @@ p{
      background-color:antiquewhite;
 
  }
-
+/* footer h3 CSS */
 footer h3{
     color:black;
     font-weight:bold;
@@ -185,7 +182,23 @@ margin-top: 5px;
  font-size:20px;
  margin-top: 5px;
 }
-
-/* @media screen and (min-width: 768 px){
-  
-} */
+@media only screen and (min-width:768px){
+    .imgcenter{
+        margin-left:125px;
+    }
+}
+/* view for smaller devices */
+@media only screen and (max-width: 768px){
+    /* contact in the index.html page CSS */
+    .card{
+        width:60%;
+        margin-bottom:50px;
+    }
+    .steven{
+        margin-bottom:30px;
+        margin-left:50px;
+    }
+    .imgcenter{
+        margin-left:30px;
+    }
+}
