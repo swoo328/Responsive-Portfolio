@@ -6,7 +6,7 @@
 body {
     font-family: 'Merriweather', serif;
 }
-/* portfolio CSS */
+/* portfolio background */
 .portfolio-background{
     background-image:url('../images/nightlight.jpg');
     background-size: cover;
@@ -40,7 +40,7 @@ body {
 /* form group css */
 .form-group{
     width:100%;
-    margin-top:20px;
+    margin-top:10px;
     font-size: 22px;
 }
 /* message box height */
@@ -88,53 +88,53 @@ label{
  /*Portfolio CSS */
  section h2{
      font-size:50px;
-     color:blue;
+     color:black;
+     margin-bottom:40px;
  }
 
 /* navbar CSS */
-
+/* Change the background color of my navbar to lightblue */
 .navbar
 {
     background-color:lightblue !important;
 }
+/* Change the first item of my navbar to white */
 .navbar .navbar-brand{
     color: White;
     font-weight:bold;
     font-size: 20px;
 }
+/* Change the list items text color to white */
 .navbar .nav-item a{
     color:white !important;
+}
+.navbar .nav-item:hover{
+    opacity:0.3;
 }
 /* move the content to the right */
 .navbar-nav{
     margin-left:auto;
 }
 
-  
-figure{
-    height: 800px;
-    width: 100%;
-    display:block;
-    margin-bottom: 25px;
-    background-image: url('../images/fantasy.jpg');
-    background-size: cover;
-    background-position: center;
-
-}
-/* CSS for the about pages */
+/* CSS for the index.html */
+/* background for my index.html */
 .about{
-    background-image:url('../images/masonry.jpeg');
+    background-image:url('../images/bridge.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.sectOne{
+    margin-top:20px;
+}
+/* giving space between the nav and h2 */
+.title{
+    margin-top:30px;
 }
 
 h2{
     text-align: center;
     color:white;
-}
-h3{
-    font-size: 16px;
-    text-align: center;
 }
 
 /* Portfolio images CSS */
@@ -144,15 +144,34 @@ h3{
  height: 350px;
  padding:10px;
 }
-
-p{
- color:blue;
+/* index.html image CSS */
+.steven{
+   height:1000px
+   width:100%;
 }
+p{
+ color:mintcream;
+ text-align: center;
+ border-style:groove;
+}
+
+/* card box CSS */
+ .card{
+     width:20%;
+     text-align: center;
+     display:flex;
+     justify-content: center;
+     margin:0 auto;
+     margin-top: 200px;
+     background-color:antiquewhite;
+
+ }
 
 footer h3{
     color:black;
     font-weight:bold;
     font-size:18px;
+    text-align: center;
 }
 /* icon CSS */
 .fa-twitter{
@@ -166,14 +185,7 @@ margin-top: 5px;
  font-size:20px;
  margin-top: 5px;
 }
-/* @media screen and (min-width: 768 px){
-    figure{
-        width: 100%;
-        margin-bottom: 25px;
-        background-image: url('../images/fantasy.jpeg');
-        background-size: cover;
-        background-position: center;
 
-    }
-    
+/* @media screen and (min-width: 768 px){
+  
 } */
