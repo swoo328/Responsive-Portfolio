@@ -150,6 +150,8 @@ h2{
  width: 450px;
  height: 350px;
  padding:10px;
+ display: block;
+ margin: auto;
 }
 /*picture size */
 .steven{
@@ -222,11 +224,11 @@ margin-top: 5px;
        display:block;
        margin:0 auto; 
     }
-    /* adjusting the portfolio size for smaller screen size */
-    .imgcenter{
+    /* adjusting the portfolio size for smaller screen size
+    .imgCenter{
         display:block;
         margin:0 auto; 
-    }
+    } */
     /* adjusting the contact form height for smaller screen size */
     .contain{
         height:auto;
