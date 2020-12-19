@@ -6,13 +6,21 @@
 body {
     font-family: 'Merriweather', serif;
 }
+
+/* CSS for the index.html */
+/* background for my index.html */
+.about{
+    background-image:url('../images/bridge.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* portfolio background */
 .portfolio-background{
     background-image:url('../images/nightlight.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 /* contact CSS */
 .contact{
@@ -37,16 +45,19 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
 /* form group css */
 .form-group{
     width:100%;
     margin-top:10px;
     font-size: 22px;
 }
+
 /* message box height */
 .form-group textarea{
     height:20vh;
 }
+
 /* cssing in the text area of the form section */
 .form-group input,
 .form-group textarea{
@@ -57,6 +68,7 @@ body {
     /* space between the input and the label */
     margin-top: 5px;
 }
+
 /* message box moves up and down */
 textarea{
     resize:vertical;
@@ -67,10 +79,12 @@ label{
     color:white;
 }
 
+/* h2 css for the contact.html */
 .contact h2{
      color:white;
      margin-bottom:5px;
  }
+
 /* css the sumbit button */
 .btn-primary{
     width:100%;
@@ -115,14 +129,6 @@ label{
 /* move the content to the right */
 .navbar-nav{
     margin-left:auto;
-}
-
-/* CSS for the index.html */
-/* background for my index.html */
-.about{
-    background-image:url('../images/bridge.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .sectOne{
@@ -190,7 +196,13 @@ margin-top: 5px;
  font-size:20px;
  margin-top: 5px;
 }
-
+/* view for laptop screens */
+@media only screen and (min-width: 768px){
+    /* adjusting the height of the contact page for laptop size and bigger */
+    .contain{
+        height:auto;
+    }
+}
 /* view for smaller devices */
 @media only screen and (max-width: 768px){
     /* contact in the index.html page CSS  */
@@ -198,31 +210,25 @@ margin-top: 5px;
         width:80%;
         margin-bottom:50px;
     }
+    /* adjusting the paragraph to fit in smaller screen size */
     p{
+        display:block;
+        margin:0 auto;
         margin-top:30px;
     }
+    /* adjusting about me picture size for smaller screen size */
     .steven{
        width:300px;
        display:block;
        margin:0 auto; 
     }
+    /* adjusting the portfolio size for smaller screen size */
     .imgcenter{
         display:block;
         margin:0 auto; 
     }
+    /* adjusting the contact form height for smaller screen size */
     .contain{
-        height:70vh;
+        height:auto;
     }
-    .form-group textarea{
-        height:10vh;
-    }
-    .form-group,
-    .form-group input,
-    .form-group textarea,
-    .btn-primary{
-        font-size:14px;
-    }
-    .btn-primary{
-        margin-bottom:5px;
-    }
-} 
+}
