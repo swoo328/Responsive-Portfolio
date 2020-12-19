@@ -7,7 +7,7 @@ https://swoo328.github.io/Responsive-Portfolio/
 https://github.com/swoo328/Responsive-Portfolio
 
 # Screenshot
-![](assets/images/screenshot.png);
+![](assets/images/screenshot.png)
 
 # Summary 
 I created a responsive-portfolio using components of bootstrap
