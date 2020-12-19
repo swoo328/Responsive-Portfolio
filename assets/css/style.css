@@ -69,6 +69,7 @@ label{
 
 .contact h2{
      color:white;
+     margin-bottom:5px;
  }
 /* css the sumbit button */
 .btn-primary{
@@ -89,7 +90,7 @@ label{
  section h2{
      font-size:50px;
      color:antiquewhite;
-     margin-bottom:40px;
+     margin-bottom:30px;
  }
 
 /* navbar CSS */
@@ -177,23 +178,19 @@ footer h3{
     text-align: center;
 }
 /* icon CSS */
+/* twitter icon */
 .fa-twitter{
 color:lightblue;
 font-size:20px;
 margin-top: 5px;
 }
-
+/* github icon */
 .fa-github{
  color:lightgreen;
  font-size:20px;
  margin-top: 5px;
 }
-/* view for laptop
-@media only screen and (min-width:768px){
-    .imgcenter{
-        margin-left:125px;
-    }
-}
+
 /* view for smaller devices */
 @media only screen and (max-width: 768px){
     /* contact in the index.html page CSS  */
@@ -204,11 +201,28 @@ margin-top: 5px;
     p{
         margin-top:30px;
     }
-    /* .steven{
-        margin-bottom:30px;
-        margin-right:100px;
+    .steven{
+       width:300px;
+       display:block;
+       margin:0 auto; 
     }
     .imgcenter{
-        margin-left:30px;
+        display:block;
+        margin:0 auto; 
     }
-}  */
+    .contain{
+        height:70vh;
+    }
+    .form-group textarea{
+        height:10vh;
+    }
+    .form-group,
+    .form-group input,
+    .form-group textarea,
+    .btn-primary{
+        font-size:14px;
+    }
+    .btn-primary{
+        margin-bottom:5px;
+    }
+} 
