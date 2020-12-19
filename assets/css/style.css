@@ -144,6 +144,11 @@ h2{
  height: 350px;
  padding:10px;
 }
+/*picture size */
+.steven{
+    width:350px;
+    height:350px;
+}
 /* parapgraph css */
 /* color, groove border and text is center */
 p{
@@ -154,13 +159,14 @@ p{
 
 /* card box CSS */
  .card{
-     width:20%;
+     width:40%;
      text-align: center;
      display:flex;
      justify-content: center;
      margin:0 auto;
      margin-top: 200px;
      background-color:antiquewhite;
+     border-radius: 8px;
 
  }
 /* footer h3 CSS */
@@ -182,6 +188,7 @@ margin-top: 5px;
  font-size:20px;
  margin-top: 5px;
 }
+/* view for laptop
 @media only screen and (min-width:768px){
     .imgcenter{
         margin-left:125px;
@@ -189,16 +196,19 @@ margin-top: 5px;
 }
 /* view for smaller devices */
 @media only screen and (max-width: 768px){
-    /* contact in the index.html page CSS */
-    .card{
-        width:60%;
+    /* contact in the index.html page CSS  */
+     .card{
+        width:80%;
         margin-bottom:50px;
     }
-    .steven{
+    p{
+        margin-top:30px;
+    }
+    /* .steven{
         margin-bottom:30px;
-        margin-left:50px;
+        margin-right:100px;
     }
     .imgcenter{
         margin-left:30px;
     }
-}
+}  */
