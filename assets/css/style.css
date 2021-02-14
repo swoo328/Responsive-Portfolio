@@ -31,17 +31,26 @@ body {
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+/* homepage photo */
+.steven{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:450px;
+    width:450px;
+}
+
 /* CSS for the index.html */
 /* background for my index.html */
 .about{
-    background-image:url('../images/background2.jpg');
+    background-image:url('../images/background6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* portfolio background */
 .portfolio-background{
-    background-image:url('../images/nightlight.jpg');
+    background-image:url('../images/background6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -50,7 +59,7 @@ body {
 .contact{
     height: 100vh;
     width: 100%;
-    background-image:url('../images/contact.jpg');
+    background-image:url('../images/background6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -177,17 +186,17 @@ h2{
  display: block;
  margin: auto;
 }
-/*picture size */
-.steven{
-    width:350px;
-    height:350px;
-}
+
 /* parapgraph css */
 /* color, groove border and text is center */
-p{
+.description{
  color:mintcream;
  text-align: center;
  border-style:groove;
+ display:block;
+ font-size:22px;
+ margin: 0 auto;
+ margin-top:20px;
 }
 
 /* card box CSS */
@@ -197,31 +206,48 @@ p{
      display:flex;
      justify-content: center;
      margin:0 auto;
-     margin-top: 200px;
+     margin-top: 20px;
      background-color:antiquewhite;
      border-radius: 8px;
 
  }
 /* footer h3 CSS */
 footer h3{
-    color:black;
+    color:white;
     font-weight:bold;
     font-size:18px;
     text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
 }
 /* icon CSS */
 /* twitter icon */
 .fa-twitter{
-color:lightblue;
-font-size:20px;
-margin-top: 5px;
+    color:lightblue;
+    font-size:20px;
+    width:30px;
+    height:30px;
+    margin-top: 5px;
 }
 /* github icon */
 .fa-github{
- color:lightgreen;
- font-size:20px;
- margin-top: 5px;
+    color:lightgreen;
+    font-size:20px;
+    width:30px;
+    height:30px;
+    margin-top: 5px;
 }
+/* linkedin icon */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    font-size:20px;
+    width:30px;
+    height:30px;
+    margin-top: 5px;
+  }
+  
 /* view for laptop screens */
 @media only screen and (min-width: 768px){
     /* adjusting the height of the contact page for laptop size and bigger */
@@ -240,7 +266,7 @@ margin-top: 5px;
     p{
         display:block;
         margin:0 auto;
-        margin-top:30px;
+        margin-top:10px;
     }
     /* adjusting about me picture size for smaller screen size */
     .steven{
