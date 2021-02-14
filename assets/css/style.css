@@ -6,6 +6,9 @@
 body {
     font-family: 'Merriweather', serif;
 }
+.resume{
+    text-decoration: none;
+}
 
 /* Animation */
 .anim-typewriter{
@@ -198,16 +201,20 @@ h2{
  margin: 0 auto;
  margin-top:20px;
 }
-
+/* card body blue background */
+.card-body{
+    background-color: lightblue;
+}
 /* card box CSS */
  .card{
      width:40%;
      text-align: center;
      display:flex;
      justify-content: center;
+     font-size:16px;
      margin:0 auto;
      margin-top: 20px;
-     background-color:antiquewhite;
+     background-color:lightblue;
      border-radius: 8px;
 
  }
